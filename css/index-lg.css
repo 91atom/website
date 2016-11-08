@@ -1,0 +1,27 @@
+nav {
+  background-color: DeepSkyBlue;
+  border: 1px solid black;
+  
+
+}
+table, th, td {
+    font-family: 'Coiny', cursive;
+    color: blue;
+    border: 1px solid black;
+}
+.img {
+  -webkit-transition: -webkit-transform;
+          transition:         transform 2s ease-in-out;
+}
+.img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(1440deg);
+          
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}

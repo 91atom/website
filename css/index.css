@@ -1,0 +1,45 @@
+* {
+    margin: 0; 
+}
+body  {
+    background-image: url("../img/back.png");
+    background-color: #cccccc;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-family: Andalus;
+    background-color: DeepSkyBlue;
+    border: 1px solid black;
+    
+}
+article {
+    text-align: center;
+    margin: 10px 100px;
+    font-family: 'Coiny', cursive;
+}
+
+footer {text-align: center;
+    
+   margin-top: 10px;
+    display: block;
+    
+}   
+
+.button {
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+div {
+    
+    border: 1px solid black;
+}
+.img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}

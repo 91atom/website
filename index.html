@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>website</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <link rel="stylesheet" href="css/index-lg.css" media="(min-width: 701px)">
+        <link rel="stylesheet" href="css/index-mob.css" media="(max-width: 700px)">
     </head>
     <body>
         <nav>
@@ -11,19 +13,23 @@
             <a href="second.html">Works</a>
             <a href="last.html">Mail</a>
         </nav>
-        <div class="top">
-            <img src="img/me.jpg" alt="It's me">
+        <div>
+            <img src="img/me.jpg" alt="It's me" class="img">
         </div>
-        <h1>Student's work expirience</h1>
-        <h1>or</h1>
-        <h1>how I decided to work in IT</h1>
-        <p>Hello! My name is Andrii and it's my first website. 
+        <header>
+            <h1>Student's work expirience</h1>
+            <h1>or</h1>
+            <h1>how I decided to work in IT</h1>
+        </header>
+        <article>
+            Hello! My name is Andrii and it's my first website. 
             Here I will be talking about my work expirience from
             my days in university till now and hopfully this will
-            help you to start your career in IT. So lets get started ...</p>
-        <footer class="foot">
+            help you to start your career in IT. So lets get started ...
+        </article>
+        <footer>
                 <a href="second.html">
-                <img src="img/get.png" alt="Press it"></a>
-        </footer>    
-    </body>
+                <img src="img/get.png" alt="Press it" class="button"></a>
+        </footer>
+        </body>
 </html>
