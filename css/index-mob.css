@@ -1,4 +1,6 @@
-
+/*header img {*/
+/*    display: none;*/
+/*}*/
 body  {
     margin-left: 1px;
     
@@ -8,9 +10,4 @@ body  {
 nav {
     text-align: center;
     background-color: red;
-}
-div {
-
-    
-    
 }
