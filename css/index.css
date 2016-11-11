@@ -2,7 +2,7 @@
     margin: 0; 
 }
 body  {
-    background-image: url("../img/back.png");
+    background-image: url("../img/background.png");
     background-color: #cccccc;
     margin: 0 auto;
 }
@@ -15,15 +15,14 @@ header {
     
 }
 article {
-    text-align: center;
     margin: 10px 100px;
-    font-family: 'Coiny', cursive;
+    text-align: center;
+    
     
 }
 
-footer {text-align: center;
-    
-   margin-top: 10px;
+upfooter {text-align: center;
+    margin-top: 10px;
     display: block;
     
 }   
@@ -31,12 +30,8 @@ footer {text-align: center;
 .button {
     border-radius: 50%;
     border: 1px solid black;
-    
 }
-div {
-    
-    border: 1px solid black;
-}
+
 .img {
     border-radius: 50%;
     display: block;
@@ -44,10 +39,17 @@ div {
     margin-right: auto;
     border: 1px solid black;
 }
-underfoot {
+footer{text-align: center;
+    
+   margin-top: 10px;
+    display: block;
+    
+}   
+p {
     text-align: center;
-   
-    background-color: DeepSkyBlue;
-    
-    
+    font-family: 'Coiny', cursive;
+    font-size: 25px;
+}
+h1{
+    font-size: 40px;
 }

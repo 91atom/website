@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>last.html</title>
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<link rel="stylesheet" href="css/index-lg.css" media="(min-width: 701px)">
+	<link rel="stylesheet" href="css/index-mob.css" media="(max-width: 700px)">
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="second.html">Works</a>
+		<a href="last.html">Mail</a>
+	</nav>
+	<form method="POST" action="https://formspree.io/91atom@gmail.com">
+		<fieldset>
+			<h1>Fill this plz:</h1>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" pattern="^[a-zA-Z]+$" title="Petro" placeholder="Your name" required>
+			<br>
+			<label for="city">City:</label>
+			<input type="text" name="city" id="city" pattern="^[a-zA-Z]+$" title="Kiev" placeholder="Your city" required>
+			<br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Your@mail.com" required>
+			<br>
+			<label>Write here:</label>
+			<br>
+			<textarea id="comment" placeholder="Your comment"></textarea>
+			<br>
+			<input type="submit" name="submit" value="Send">
+		</fieldset>
+	</form>
+	<form action="last.html">
+		<input type="submit" value="Go back" />
+	</form>
+</body>
+
+</html>
