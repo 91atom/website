@@ -1,13 +1,38 @@
 /*header img {*/
 /*    display: none;*/
 /*}*/
-body  {
-    margin-left: 1px;
-    
-}
 
 
-nav {
+
+
+nav {display: flex;
+justify-content:space-between;
     text-align: center;
     background-color: red;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+}
+
+table, th, td {
+    font-family: 'Coiny', cursive;
+    color: blue;
+    border-bottom: 1px solid #ddd;
+    margin-left:auto; 
+    margin-right:auto;
+  	border-collapse: collapse;
+  	width: 500px;
+  	height: 50px;
+    text-align: center;
 }

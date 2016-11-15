@@ -12,148 +12,24 @@ table, th, td {
   	border-collapse: collapse;
   	width: 500px;
   	height: 100px;
-    
+  	text-align: center;
 }
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-  -webkit-transition: -webkit-transform;
-          transition:         transform 2s ease-in-out;
-}
-.img:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(1440deg);
-          
-}
+
+
 .img2 {
 	display: block;
     margin-left: auto;
     margin-right: auto;
 	
 }
-td
-{text-align: center;
-}
+
 form{
 	font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel-items, .carousel-labels {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: block;
-}
-.carousel-item {
-	display: block;
-	float: left;
+p {
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    font-size: 25px;
 }
 
-.carousel-wrapper {
-	width: 100%;
-	position: relative;
-	padding-bottom: 20%;
-	/*background-color: #eee;*/
-	overflow: hidden;
-}
-.carousel-items {
-	width: 300%;
-	height: 100%;
-	position: absolute;
-
-
-
-	left: 0;
-	top: 0;
-	z-index: 1;
-	transition: left .5s ease-out;
-	-o-transition: left .5s ease-out;
-	-ms-transition: left .5s ease-out;
-	-moz-transition: left .5s ease-out;
-	-webkit-transition: left .5s ease-out;
-}
-.carousel-item {
-	width: 33.33333333%;
-	height: 100%;
-	color: white;
-}
-/*.carousel-item-blue {*/
-/*	background-color: blue;*/
-/*}*/
-/*.carousel-item-red {*/
-/*	background-color: red;*/
-/*}*/
-/*.carousel-item-green {*/
-/*	background-color: green;*/
-/*}*/
-.carousel-labels {
-	position: absolute;
-	z-index: 2;
-	left: 0;
-	bottom: 0;
-	height: 20px;
-	width: 100%;
-	padding: 10px 0;
-	text-align: center;
-}
-.carousel-selector {
-	display: none;
-}
-.carousel-label {
-	display: inline-block;
-}
-.carousel-label label {
-	width: 20px;
-	height: 20px;
-	border-radius: 10px;
-	background-color: DeepSkyBlue;
-	display: block;
-	cursor: pointer;
-}
-
-#slide1:checked ~ .carousel-items {
-	left: 0;
-}
-#slide1:checked ~ .carousel-labels .carousel-label:nth-child(1) label {
-	background-color: black;
-}
-#slide2:checked ~ .carousel-items {
-	left: -100%;
-}
-#slide2:checked ~ .carousel-labels .carousel-label:nth-child(2) label {
-	background-color: black;
-}
-#slide3:checked ~ .carousel-items {
-	left: -200%;
-}
-#slide3:checked ~ .carousel-labels .carousel-label:nth-child(3) label {
-	background-color: black;
-}
