@@ -1,22 +1,28 @@
-nav {
-  background-color: DeepSkyBlue;
-  border: 1px solid black;
-  font-size: 30px;
-}
-table, th, td {
-    font-family: 'Coiny', cursive;
-    color: blue;
-    border-bottom: 1px solid #ddd;
-    margin-left:auto; 
-    margin-right:auto;
-  	border-collapse: collapse;
-  	width: 500px;
-  	height: 100px;
-  	text-align: center;
+/*nav {*/
+/*  background-color: DeepSkyBlue;*/
+/*  border: 1px solid black;*/
+/*  font-size: 30px;*/
+/*}*/
+nav {border:  0 ;
+    text-align: center;
+    
+    
 }
 
+    
+    
+    
+    
+
+  
+    
+    
+    
+    
 
 .img2 {
+    width: 75%;
+    height: auto;
 	display: block;
     margin-left: auto;
     margin-right: auto;
