@@ -5,10 +5,10 @@
 
 
 
-nav {display: flex;
-justify-content:space-between;
+
+nav {max-width: 703px;
     text-align: center;
-    background-color: red;
+    
 }
 
 img {
@@ -25,3 +25,6 @@ p {
     font-size: 20px;
 }
 
+.article1 {
+    overflow-x:auto;
+}

@@ -6,7 +6,12 @@ body  {
     background-color: #cccccc;
     margin: 0 auto;
     max-width: 1500px;
-
+}
+.navbar{
+    margin: 0;
+}
+.container-fluid {
+    background-color: red;
 }
 
 header {
@@ -128,7 +133,7 @@ table, th, td, tr:hover {
     max-width: 500px;
     
   -webkit-transition: -webkit-transform;
-          transition:         transform 2s ease-in-out;
+          transition:         transform 3s ease-in-out;
 }
 .img:hover {
   -webkit-transform: rotateY(360deg);
@@ -264,7 +269,7 @@ table, th, td, tr:hover {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -50px;
   transition: 0.5s;
 }
 
@@ -304,12 +309,12 @@ table, th, td, tr:hover {
   transition: 0.5s;
 }
 
-.button2 span:after {
-  content: '<<';
+.button2 span:before {
+  content: '«';
   position: absolute;
   opacity: 0;
   top: 0;
-  right: 20px;
+  left: -50px;
   transition: 0.5s;
 }
 
@@ -317,7 +322,8 @@ table, th, td, tr:hover {
   padding-left: 25px;
 }
 
-.button2:hover span:after {
+.button2:hover span:before {
   opacity: 1;
-  right: 0;
+  left: 0;
 }
+
