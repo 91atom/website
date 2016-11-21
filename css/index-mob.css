@@ -1,22 +1,14 @@
 /*header img {*/
+
+
 /*    display: none;*/
+
+
 /*}*/
 
-
-
-
-
-nav {max-width: 703px;
+nav {
+    max-width: 703px;
     text-align: center;
-    
-}
-
-img {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
@@ -26,5 +18,26 @@ p {
 }
 
 .article1 {
-    overflow-x:auto;
+    overflow-x: auto;
+}
+
+.carousel-inner .item img {
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+.img2 {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meimg {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

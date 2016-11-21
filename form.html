@@ -2,59 +2,42 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css" type="text/css" />
-  <link rel="stylesheet" href="css/index-lg.css" media="(min-width: 701px)">
-  <link rel="stylesheet" href="css/index-mob.css" media="(max-width: 700px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/index-lg.css" media="(min-width: 701px)">
+    <link rel="stylesheet" href="css/index-mob.css" media="(max-width: 700px)">
 </head>
 
+
 <body>
-	<form>
+    <form method="POST" id="myForm">
+
         <h1>Fill this plz:</h1>
+        <div id="form">
         <label for="userName">Name:</label>
-        <input name="userName" id="userName">
+        <input name="text" id="userName" placeholder="Your name"  required>
         <br>
-        <label for="userAge">Age:</label>
-        <input name="userAge" id="userAge">
-        <input type="submit" id="send">
+        <label for="userEmail">Email:</label>
+        <input name="userEmail" id="userEmail" placeholder="Your Email"  required>
+        <br>
+        <label for="userMessage">Comment:</label>
+        <textarea id="userMessage" name="userMessage" rows="3" cols="30"></textarea><br>
+        <!--<input   type="submit" name="submit" class="submit" id="submit" value="Send" />-->
+        <input id="send" class="submit" type="submit" value="Send" />
+        </div>
     </form>
-    
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+
+
+        
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/check.js"></script>
     <script type="text/javascript" src="js/form.js"></script>
-	
-	
-	<!--<form method="POST" action="https://formspree.io/91atom@gmail.com">-->
-	<!--	<fieldset>-->
-	<!--		<h1>Fill this plz:</h1>-->
-	<!--		<label for="name">Name:</label>-->
-	<!--		<input type="text" name="name" id="name" pattern="^[a-zA-Z]+$" title="Petro" placeholder="Your name" required>-->
-	<!--		<br>-->
-	<!--		<label for="city">City:</label>-->
-	<!--		<input type="text" name="city" id="city" pattern="^[a-zA-Z]+$" title="Kiev" placeholder="Your city" required>-->
-	<!--		<br>-->
-	<!--		<label for="email">Email:</label>-->
-	<!--		<input type="email" name="email" id="email" placeholder="Your@mail.com" required>-->
-	<!--		<br>-->
-	<!--		<label>Write here:</label>-->
-	<!--		<br>-->
-	<!--		<textarea id="comment" placeholder="Your comment"></textarea>-->
-	<!--		<br>-->
-	<!--		<input type="submit" name="submit" value="Send">-->
-	<!--	</fieldset>-->
-	<!--</form>-->
-	<!--<form action="last.html">-->
-	<!--	<input type="submit" value="Go back" />-->
-	<!--</form>-->
 </body>
 
 </html>

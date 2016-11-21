@@ -5,7 +5,9 @@ $(function() {
                 url: "https://formspree.io/91atom@gmail.com",
                 method: "POST",
                 data: {
-                    userName: $('#userName').val()
+                    userName: $('#userName').val(),
+                    userEmail: $('#userEmail').val(),
+                    userMessage: $('#userMessage').val()
                 },
                 dataType: "json"
             })

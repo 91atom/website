@@ -1,37 +1,18 @@
-/*nav {*/
-/*  background-color: DeepSkyBlue;*/
-/*  border: 1px solid black;*/
-/*  font-size: 30px;*/
-/*}*/
 nav {
-    border:  0;
+    border: 0;
     text-align: center;
-    
-    
 }
-
-    
-    
-    
-    
-
-  
-    
-    
-    
-    
 
 .img2 {
     width: 75%;
     height: auto;
-	display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-	
 }
 
-form{
-	font-size: 20px;
+form {
+    font-size: 20px;
 }
 
 p {
@@ -39,4 +20,3 @@ p {
     font-family: 'Coiny', cursive;
     font-size: 25px;
 }
-
