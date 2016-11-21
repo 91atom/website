@@ -4,9 +4,30 @@ nav {
     
 }
 
-p {
+h1{
+    font-size:25px;
+    margin: 5px;
+}
+header{
+    height: 40px;
+}
+.article{
+    margin: 0;
+}
+.button{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+p { max-width: 600px;
+    
      font-size: 20px;
 }
+
+ 
+     
+
 
 .article1 {
     overflow-x: auto;
@@ -20,4 +41,9 @@ p {
     width: 60%;
     height: auto;
     
+}
+
+.pagination{
+    width: auto;
+    height:50px;
 }

@@ -11,8 +11,9 @@ body {
 }
 
 
-p {
-    text-align: center;
+p { 
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'PT Sans Narrow', sans-serif;
     
     
@@ -46,11 +47,12 @@ header {
     text-align: center;
     background-color: DeepSkyBlue;
     border: 1px solid black;
+    height: 55px;
     
 }
 
 .article {
-    margin: 10px 100px;
+    
     text-align: center;
 }
 
@@ -73,6 +75,7 @@ footer {
 
 h1 {
     font-size: 40px;
+    margin: 5px;
 }
 
 .container-fluid {
@@ -186,7 +189,8 @@ tr:hover {
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 220px;
+    width: auto;
+    height: 100px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -225,7 +229,8 @@ tr:hover {
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 220px;
+    width: auto;
+    height: 100px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
