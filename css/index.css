@@ -7,6 +7,8 @@ body {
     background-color: #cccccc;
     margin: 0 auto;
     max-width: 1500px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
 }
 
 .navbar {
@@ -24,9 +26,9 @@ body {
 
 header {
     text-align: center;
-    font-family: Andalus;
     background-color: DeepSkyBlue;
     border: 1px solid black;
+    
 }
 
 .article {
@@ -47,7 +49,7 @@ footer {
 
 .font {
     text-align: center;
-    font-family: 'Coiny', cursive;
+    
     font-size: 25px;
 }
 
@@ -62,7 +64,7 @@ h1 {
 table,
 th,
 td {
-    font-family: 'Coiny', cursive;
+    
     color: blue;
     border-bottom: 1px solid #ddd;
     margin-left: auto;
