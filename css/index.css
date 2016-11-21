@@ -7,10 +7,28 @@ body {
     background-color: #cccccc;
     margin: 0 auto;
     max-width: 1500px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+p {
+    text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
+    
     
 }
 
+.img2 {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+}
 .navbar {
     margin: 0;
     font-size: 20px;
